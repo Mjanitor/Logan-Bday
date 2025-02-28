@@ -1,0 +1,53 @@
+body {
+  background-image: url(https://images.pexels.com/photos/57406/greater-snow-goose-goose-snow-goose-wading-bird-57406.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+	background-size: 200px 200px;
+}
+h1 {
+  text-align: center;
+  background-color: powderblue;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+p {
+  color: black;
+  text-align: center;
+}
+
+hr {
+	border: 1px dashed black;
+}
+
+img {
+	border-radius: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a {
+	height: auto;
+	width: auto;
+	display: inline-block;
+	padding: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgb(176, 224, 230);
+	border: 2px solid black;
+	text-decoration: none;
+	color: black;
+	border-radius: 10px;
+}
+
+a:hover {
+	background-color: rgb(159, 203, 209);
+	box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.24);
+	transform: scale(0.95);
+}
+
+#buttons {
+	max-width: fit-content;
+	margin-inline: auto;
+}
